@@ -30,3 +30,26 @@ void main() {
     }*/
 
 }
+
+
+//Find the element in the 2d array:
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    char math1[][10]={"rath","inam","tech"};
+    int i,j;
+    for(i=0;i<3;i++){
+        for(j=0;j<4;j++){
+            //scanf("Enter the mat 1:%d",&mat1[i][j]);
+            if(math1[i][j]=='n'){
+                printf("%d %d",i,j);
+            }
+        }
+    }
+   
+    return 0;  
+    }
+   
+  
+
