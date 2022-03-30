@@ -51,5 +51,25 @@ int main() {
     return 0;  
     }
    
-  
+  //
 
+Enter the input and find the value in the given 2d array
+#include <stdio.h>
+
+int main() {
+    char math1[3][4];//={"rath","inam","tech"};
+    int i,j;
+    for(i=0;i<3;i++){
+        scanf("%s",&math1[i][0]);
+    }
+    for(i=0;i<3;i++){
+        for(j=0;j<4;j++){
+            //scanf("Enter the mat 1:%d",&mat1[i][j]);
+            if(math1[i][j]=='n'){
+                printf("%d %d",i,j);
+            }
+        }
+    }
+   
+    return 0;  
+    }
