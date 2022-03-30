@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 void main() {
-    int mat1[3][4],mat2[3][4],math3[3][4],result[3][4];
+    int mat1[2][3],mat2[2][3],result[2][3];
     char i,j;
     for(i=0;i<2;i++){
         for(j=0;j<3;j++){
@@ -13,11 +13,6 @@ void main() {
      for(i=0;i<2;i++){
         for(j=0;j<3;j++){
             scanf("Enter the mat 2:%d",&mat2[i][j]);
-        }
-    }
-     for(i=0;i<2;i++){
-        for(j=0;j<3;j++){
-            scanf(" Enter the mat 3: %d",&mat3[i][j]);
         }
     }
     for(i=0;i<2;i++){
